@@ -1,0 +1,19 @@
+{
+  "name": "teaching-app",
+  "version": "1.0.0",
+  "description": "teaching application to record the lecture for online platfrom",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaypradhan/teaching-app.git"
+  },
+  "author": "Ajay Pradhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajaypradhan/teaching-app/issues"
+  },
+  "homepage": "https://github.com/ajaypradhan/teaching-app#readme"
+}

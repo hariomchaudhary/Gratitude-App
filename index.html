@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+        <title>Teaching App</title>
+    </head>
+    <body>
+        <div class="container">
+            <div id="left">
+                <div class="record" id="start">
+                    <i class="fas fa-circle red"></i>
+                    <span>RECORD</span>
+                </div>
+                <div class="gallery">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="40"
+                        height="40"
+                        viewBox="0 0 79 79"
+                    >
+                        <path
+                            id="Icon_material-collections"
+                            data-name="Icon material-collections"
+                            d="M82,58.3V10.9A7.923,7.923,0,0,0,74.1,3H26.7a7.923,7.923,0,0,0-7.9,7.9V58.3a7.923,7.923,0,0,0,7.9,7.9H74.1A7.923,7.923,0,0,0,82,58.3ZM38.55,42.5l8.019,10.7L58.3,38.55,74.1,58.3H26.7ZM3,18.8V74.1A7.923,7.923,0,0,0,10.9,82H66.2V74.1H10.9V18.8Z"
+                            transform="translate(-3 -3)"
+                            fill="#4c4c6d"
+                        />
+                    </svg>
+                </div>
+                <div class="tools-panel">
+                    <div class="tool" id="pen">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 36.001 35.999"
+                        >
+                            <path
+                                id="Icon_awesome-pen"
+                                data-name="Icon awesome-pen"
+                                d="M20.443,6.556l9,9L9.9,35.1l-8.025.886A1.688,1.688,0,0,1,.01,34.125L.9,26.094,20.443,6.556Zm14.569-1.34L30.785.989a3.377,3.377,0,0,0-4.775,0L22.034,4.965l9,9,3.976-3.976a3.377,3.377,0,0,0,0-4.775Z"
+                                transform="translate(0.001 -0.001)"
+                            />
+                        </svg>
+                    </div>
+
+                    <div class="tool" id="eraser">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 36 31.5"
+                        >
+                            <path
+                                id="Icon_awesome-eraser"
+                                data-name="Icon awesome-eraser"
+                                d="M35.011,19.261a3.375,3.375,0,0,0,0-4.773L23.761,3.239a3.375,3.375,0,0,0-4.773,0l-18,18a3.375,3.375,0,0,0,0,4.773l6.75,6.75a3.375,3.375,0,0,0,2.387.989H35.156A.844.844,0,0,0,36,32.906V30.094a.844.844,0,0,0-.844-.844H25.023l9.988-9.989Zm-21.278-4.4,9.659,9.659L18.659,29.25H10.591L4.966,23.625l8.767-8.767Z"
+                                transform="translate(0 -2.25)"
+                            />
+                        </svg>
+                    </div>
+                    <div class="tool" id="undo">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 35.461 35.438"
+                        >
+                            <path
+                                id="Icon_awesome-undo"
+                                data-name="Icon awesome-undo"
+                                d="M14.93,15.773H.844A.844.844,0,0,1,0,14.93V.844A.844.844,0,0,1,.844,0H4.219a.844.844,0,0,1,.844.844V6.336A17.437,17.437,0,1,1,6.316,30.922.845.845,0,0,1,6.283,29.7l2.388-2.388a.842.842,0,0,1,1.153-.037,12.375,12.375,0,1,0-1.8-16.561h6.91a.844.844,0,0,1,.844.844V14.93a.844.844,0,0,1-.844.844Z"
+                            />
+                        </svg>
+                    </div>
+                    <div class="tool" id="redo">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 34.875 34.875"
+                        >
+                            <path
+                                id="Icon_awesome-redo-alt"
+                                data-name="Icon awesome-redo-alt"
+                                d="M18.032.563A17.378,17.378,0,0,1,30.046,5.392l2.511-2.511a1.688,1.688,0,0,1,2.881,1.193V13.5a1.687,1.687,0,0,1-1.687,1.688H24.324a1.688,1.688,0,0,1-1.193-2.881l2.936-2.936a11.812,11.812,0,1,0-.288,17.519.842.842,0,0,1,1.151.039l2.789,2.789a.845.845,0,0,1-.034,1.226A17.438,17.438,0,1,1,18.032.563Z"
+                                transform="translate(-0.563 -0.562)"
+                            />
+                        </svg>
+                    </div>
+                    <!-- <div class="tool" id="pre-page">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 28.899 34.875"
+                        >
+                            <g
+                                id="Group_1"
+                                data-name="Group 1"
+                                transform="translate(-133 -592)"
+                            >
+                                <path
+                                    id="Icon_simple-pagekit"
+                                    data-name="Icon simple-pagekit"
+                                    d="M3.6,0V34.875h14.45V29.749H8.912V5.124H27.195v19.5H18.053v5.122H32.5V0Z"
+                                    transform="translate(129.398 592)"
+                                />
+                                <path
+                                    id="Icon_open-media-skip-backward"
+                                    data-name="Icon open-media-skip-backward"
+                                    d="M7.778,0,0,5.833l7.778,5.833Zm0,5.833,7.778,5.833V0Z"
+                                    transform="translate(139 603)"
+                                />
+                            </g>
+                        </svg>
+                    </div> -->
+                    <!-- <div class="tool" id="next-page">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 28.899 34.875"
+                        >
+                            <g
+                                id="Group_2"
+                                data-name="Group 2"
+                                transform="translate(-132 -662.063)"
+                            >
+                                <path
+                                    id="Icon_simple-pagekit"
+                                    data-name="Icon simple-pagekit"
+                                    d="M3.6,0V34.875h14.45V29.749H8.912V5.124H27.195v19.5H18.053v5.122H32.5V0Z"
+                                    transform="translate(128.398 662.063)"
+                                />
+                                <path
+                                    id="Icon_open-media-skip-backward"
+                                    data-name="Icon open-media-skip-backward"
+                                    d="M7.778,0l7.778,5.833L7.778,11.667Zm0,5.833L0,11.667V0Z"
+                                    transform="translate(139 673.063)"
+                                />
+                            </g>
+                        </svg>
+                    </div> -->
+                    <div class="tool" id="add-page">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 28.799 36"
+                        >
+                            <g
+                                id="Group_3"
+                                data-name="Group 3"
+                                transform="translate(-133 -732)"
+                            >
+                                <path
+                                    id="Icon_simple-pagekit"
+                                    data-name="Icon simple-pagekit"
+                                    d="M3.6,0V36H18V30.709H8.894V5.289H27.112V25.42H18v5.288H32.4V0Z"
+                                    transform="translate(129.398 732)"
+                                />
+                                <path
+                                    id="Icon_awesome-plus"
+                                    data-name="Icon awesome-plus"
+                                    d="M13.929,8.143H9.107V3.321A1.072,1.072,0,0,0,8.036,2.25H6.964A1.072,1.072,0,0,0,5.893,3.321V8.143H1.071A1.072,1.072,0,0,0,0,9.214v1.071a1.072,1.072,0,0,0,1.071,1.071H5.893v4.821A1.072,1.072,0,0,0,6.964,17.25H8.036a1.072,1.072,0,0,0,1.071-1.071V11.357h4.821A1.072,1.072,0,0,0,15,10.286V9.214A1.072,1.072,0,0,0,13.929,8.143Z"
+                                    transform="translate(140 739.75)"
+                                />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <div class="tools-option">
+                    <div class="pen-option">
+                        <div class="color-section">
+                            <input type="color" id="color-picker" />
+                        </div>
+                        <div class="size-section">
+                            <input
+                                id="penSize"
+                                class="pen-range"
+                                type="range"
+                                name="pen-size"
+                                value="1"
+                                min="1"
+                                max="15"
+                            />
+                        </div>
+                    </div>
+                    <div class="eraser-option">
+                        <input
+                            id="eraserSize"
+                            class="eraser-range"
+                            type="range"
+                            name="eraser-size"
+                            value="1"
+                            min="1"
+                            max="200"
+                        />
+                    </div>
+                </div>
+                <div class="video-container">
+                    <video
+                        id="localVideoStream"
+                        class="video-circle"
+                        width="180"
+                        height="180"
+                        autoplay
+                    ></video>
+                </div>
+            </div>
+            <div id="right">
+                <div class="board">
+                    <canvas
+                        id="myCanvas"
+                        width="1180.120"
+                        height="633.763"
+                    ></canvas>
+                </div>
+                <div class="board-color">
+                    <i class="fas fa-circle white"></i>
+                    <i class="fas fa-circle black"></i>
+                    <div class="stop-btn" id="stop">
+                        <h5>STOP</h5>
+                    </div>
+                    
+                    <div class="download-btn" >
+                        <a id="download" href="#" ><h5>Download</h5></a>
+                        <!-- <h5>Download</h5> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- JavaScripts -->
+        <script src="./js/db.js"></script>
+        <script src="./js/script.js"></script>
+        <script src="./js/tools.js"></script>
+        <script src="./js/drawing_tools.js"></script>
+        <script src="./js/record.js"></script>
+    </body>
+</html>
+ 
